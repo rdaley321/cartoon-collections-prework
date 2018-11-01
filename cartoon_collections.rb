@@ -17,7 +17,7 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.each{|x| cheese_types.include?(x)} ? food.find(cheese_types.each) : nil
+  food.each{|x| cheese_types.include?(x)}
 end
 
 puts find_the_cheese(["dopi","gouda","cucumber"])
